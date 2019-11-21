@@ -9,7 +9,8 @@ bti_logo <- function(xmin, xmax, ymin, ymax){ # Takes input for logo dimensions,
     coord_cartesian(clip = "off"),
     theme_bw(), # Can be replaced with other themes
     theme(plot.margin = unit(c(1, 2, 2, 1), "lines")),
-    scale_color_manual(values = bti_colors)
+    scale_color_manual(values = bti_colors),
+    scale_fill_manual(values = bti_colors)
   )
 }
 
