@@ -1,3 +1,7 @@
+---
+permalink: marsian.html
+---
+
 ----
 ## Calvino's Last Words 
 
