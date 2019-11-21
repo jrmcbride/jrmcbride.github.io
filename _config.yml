@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
 title: Jameson McBride
 description: I'm an Energy and Climate Analyst at the Breakthrough Institute in sunny Oakland, California. I graduated in 2017 from Columbia University and was born and raised in Maine.
-
+markdown: kramdown
+highlighter: rouge
