@@ -1,6 +1,6 @@
 # In which i fix things.
 
-Look at this great story about [Italo Calvino.](https://jrmcbride.github.io/marsian.md)
+Look at this great story about [Italo Calvino.](https://jrmcbride.github.io/marsian.html)
 
 ## Welcome to GitHub Pages
 
