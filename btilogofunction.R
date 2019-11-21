@@ -1,3 +1,6 @@
+bti_colors <- c("#0d4459", "#00a990", "#d05527", "#a33332",
+                "#b381d0",  "#dfb9a6", "#b2b2b1", "#2A2A2A", "#ecc627")
+
 bti_logo <- function(xmin, xmax, ymin, ymax){ # Takes input for logo dimensions, *relative to data*
   require(tidyverse); require(grid); require(magick)
   list(
@@ -6,8 +9,7 @@ bti_logo <- function(xmin, xmax, ymin, ymax){ # Takes input for logo dimensions,
     coord_cartesian(clip = "off"),
     theme_bw(), # Can be replaced with other themes
     theme(plot.margin = unit(c(1, 2, 2, 1), "lines")),
-    scale_color_manual(values = c("#0d4459", "#00a990", "#d05527", "#a33332",
-                                  "#b381d0",  "#dfb9a6", "#b2b2b1", "#2A2A2A", "#ecc627"))
+    scale_color_manual(values = bti_colors)
   )
 }
 
